@@ -8,6 +8,8 @@ csv_file = csv.reader(open_file, delimiter=",")
 
 header_row = next(csv_file)
 
+print(header_row)
+
 highs = []
 lows = []
 dates = []
